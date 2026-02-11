@@ -10,7 +10,7 @@
 
             string courseName, fullName;
             int roomNumber, gradYear;
-            double price, radius, areaCircle, baseTriangle, heightTriangle, areaTriangle;
+            double price, radius, areaCircle, baseTriangle, heightTriangle, areaTriangle, pi;
 
             roomNumber = 29;
             price = 2.99;
@@ -33,7 +33,8 @@
             radius = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine(" ");
 
-            areaCircle = Math.PI * 2 * radius;
+            pi = Math.PI;
+            areaCircle = pi * 2 * radius;
             Console.WriteLine("The area of a circle with the radius of " + radius.ToString("F2") + " is " + areaCircle.ToString("F2") + ".");
             Console.WriteLine(" ");
 
